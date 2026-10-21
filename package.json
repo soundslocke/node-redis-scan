@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GigSalad/node-redis-scan.git"
+    "url": "git+https://github.com/soundslocke/node-redis-scan.git"
   },
-  "author": "GigSalad",
+  "author": "Locke Bircher",
   "license": "Apache-2.0",
   "dependencies": {},
   "devDependencies": {

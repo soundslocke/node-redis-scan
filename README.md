@@ -19,7 +19,7 @@ yarn add node-redis-scan
 
 Instantiate this class with a [Node Redis client](https://github.com/redis/node-redis) (version 3.x) then perform key space scans!
 
-**⚠️ Note:** Node Redis clients of version 4.x or newer are not supported by this library. [At least not yet](https://github.com/GigSalad/node-redis-scan/issues/12). Luckily, if you are using version 4.x you may not need this library. You could likely use a [Node Redis 4.x scan iterator](https://github.com/redis/node-redis#scan-iterator) instead of this library.
+**⚠️ Note:** Node Redis clients of version 4.x or newer are not supported by this library. [At least not yet](https://github.com/soundslocke/node-redis-scan/issues/12). Luckily, if you are using version 4.x you may not need this library. You could likely use a [Node Redis 4.x scan iterator](https://github.com/redis/node-redis#scan-iterator) instead of this library.
 
 Redis supports scanning the entire key space or scanning hashes, sets, and sorted sets with the `HSCAN`, `SSCAN`, and `ZSCAN` commands, respectively. All of this functionality is available by calling the appropriately named functions listed below.
 
